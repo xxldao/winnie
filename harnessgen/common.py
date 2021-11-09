@@ -463,7 +463,7 @@ class SimpleTrace(Trace):
 
 # This is the important part; program synthesizer
 class Synthesizer:
-    def __init__(self, trace_pn: str, dump_pn: str, functype_pn: str, start_func=None, sample_name: str = None):
+    def __init__(self, trace_pn: str, dump_pn: str, functype_pn: str, start_func=None, sample_name: str = ""):
         self.dump_pn = dump_pn
         self.trace_pn = trace_pn
         self.start_func = start_func
